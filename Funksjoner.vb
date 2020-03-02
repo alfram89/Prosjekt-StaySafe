@@ -6,7 +6,7 @@ Module Funksjoner
 
     'Åpner tilkoblingen til egen database for innlogging.
     Public Function logginnString()
-        Dim tilkobling As New MySqlConnection("Server=mysql.stud.iie.ntnu.no;Database=martigm;Uid=martigm;Pwd=1q0IwjlD")
+        Dim tilkobling As New MySqlConnection("Server=mysql.stud.iie.ntnu.no;Database=xxx;Uid=xxx;Pwd=xxx")
         Return tilkobling
     End Function
 
